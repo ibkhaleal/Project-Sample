@@ -36,7 +36,7 @@ Our solution empowers farmers with AI assistance for sustainable agriculture.
 
 ### Our idea
 
-# mpowering Farmers for Sustainable Agriculture
+# Empowering Farmers for Sustainable Agriculture
 
 ## The Real-World Problem
 
@@ -85,29 +85,52 @@ More detail is available in our [description document](./docs/DESCRIPTION.md).
 
 ### IBM AI service(s) used
 
-_INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove any services you did not use, or add others from the linked catalog not already listed here. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation. Remove these instructions._
+- [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding):
+  - **Where Used**: IBM Natural Language Understanding is utilized in our solution for analyzing text-based information provided by farmers. It is used to extract insights about crop health, pest infestations, and nutrient deficiencies from text descriptions and images.
+  - **How Used**: When farmers interact with the AI assistant and provide textual or image-based descriptions of their crops, Natural Language Understanding is applied to extract and analyze the content for signs of crop-related issues. This allows the assistant to offer targeted advice and recommendations to the farmers based on the analyzed data.
 
-- [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
+- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant):
+  - **Where Used**: Watson Assistant is a core component of our solution, serving as the interactive interface for farmers.
+  - **How Used**: Farmers communicate with the AI assistant through Watson Assistant. They can ask questions about farming practices, inquire about weather conditions, provide images of their crops, or request information about nearby storage facilities. Watson Assistant handles these interactions, processes user queries, and responds with relevant guidance and information, thereby acting as the virtual farming assistant.
+
+- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery):
+  - **Where Used**: Watson Discovery is integrated into our solution to provide enhanced information retrieval and content discovery capabilities.
+  - **How Used**: In our solution, Watson Discovery is applied to analyze a vast amount of textual data, such as articles and documents related to agriculture and farming practices. This data is used to enrich the knowledge base of the AI assistant. When farmers ask specific questions or seek detailed information, Watson Discovery helps retrieve accurate and relevant content to assist the farmers effectively.
 
 ### Other IBM technology used
 
-INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
+- No other IBM technology components were used in our solution. Our solution primarily relies on IBM Watson services, such as IBM Watson Assistant, IBM Natural Language Understanding, and IBM Watson Discovery, to provide comprehensive assistance to farmers.
 
 ### Solution architecture
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Video transcription/translaftion app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![Solution Architecture](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+The architecture of our solution is designed to address the pressing issue of food security by empowering farmers with a comprehensive and user-friendly assistant for sustainable agriculture. Here's a step-by-step description of the flow of our solution:
+
+1. **User Interaction**:
+   - Farmers, facing the challenges of food security, access our platform or application to seek guidance and assistance in their agricultural practices.
+
+2. **Farming Guidance**:
+   - The heart of our solution is [IBM Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant). Farmers interact with the AI assistant, asking questions about farming practices, inquiring about weather conditions, providing images of their crops, or requesting information about nearby storage facilities. Watson Assistant handles these interactions, processes user queries, and responds with relevant guidance and information, effectively acting as their virtual farming assistant.
+
+3. **Weather Monitoring**:
+   - Our AI assistant continuously monitors weather conditions in the farmer's region. When adverse weather is predicted, such as heavy rain, drought, or frost, it sends immediate alerts to help farmers take necessary precautions to protect their crops.
+
+4. **Crop Monitoring**:
+   - Farmers can use their smartphones to take pictures of their crops. The assistant analyzes these images to identify signs of disease, pest infestations, or nutrient deficiencies, providing recommendations for treatment.
+
+5. **Harvesting and Storage Guidance**:
+   - The AI assistant advises farmers on the best time to harvest their crops to maximize freshness and nutritional content. It also offers storage recommendations to prolong shelf life and reduce waste.
+
+6. **Product Quality Assessment**:
+   - Farmers can interact with the assistant to assess the quality of their stored produce. By providing information about the condition of their crops, they can make informed decisions on when to sell or use their produce.
+
+7. **Warehouse Locator**:
+   - If farmers need additional storage space, the assistant helps them find the nearest warehouses available for rent. It provides information about their capacity, rates, and available services.
+
+Our solution architecture is a holistic approach to addressing the issue of food security, enhancing agricultural practices, and optimizing resource use. It combines the power of IBM Watson services and cloud-based storage to offer comprehensive support to farmers on their journey towards sustainable agriculture.
 
 ## Presentation materials
 
