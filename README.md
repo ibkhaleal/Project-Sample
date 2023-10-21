@@ -15,12 +15,7 @@
 - [Additional details](#additional-details)
   - [How to run the project](#how-to-run-the-project)
   - [Live demo](#live-demo)
-- [About this template](#about-this-template)
-  - [Contributing](#contributing)
-  - [Versioning](#versioning)
-  - [Authors](#authors)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
+
 
 
 
@@ -79,7 +74,7 @@ Our solution not only empowers farmers to make informed decisions, but it also c
 For additional documentation, including technical specifications and code samples, please refer to our [source code repository](link-to-repository).
 
 
-More detail is available in our [description document](./docs/DESCRIPTION.md).
+
 
 ## Technology implementation
 
@@ -137,7 +132,7 @@ Our solution architecture is a holistic approach to addressing the issue of food
 _
 ### Solution demo video
 
-[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://www.youtube.com/watch?v=s1DMjhhRwuc)
 
 ### Project Development Roadmap
 
