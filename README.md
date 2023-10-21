@@ -71,7 +71,7 @@ Our solution represents a significant improvement over existing solutions for se
 
 Our solution not only empowers farmers to make informed decisions, but it also contributes to sustainable agriculture by reducing resource wastage and enhancing food security. By utilizing the power of AI, we aim to provide smallholder farmers with the tools and knowledge they need to thrive in an increasingly challenging environment.
 
-For additional documentation, including technical specifications and code samples, please refer to our [source code repository](link-to-repository).
+For additional documentation, including technical specifications and code samples, please refer to our [source code repository](https://github.com/ibkhaleal/farm-360). (https://github.com/ibkhaleal/farm-360)
 
 
 
