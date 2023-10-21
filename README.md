@@ -22,7 +22,7 @@
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
-_INSTRUCTIONS: Complete all required deliverable sections below._
+
 
 ## Project summary
 
@@ -134,66 +134,57 @@ Our solution architecture is a holistic approach to addressing the issue of food
 
 ## Presentation materials
 
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
-
+_
 ### Solution demo video
 
 [![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
-### Project development roadmap
+### Project Development Roadmap
 
-The project currently does the following things.
+The project currently offers the following features:
 
-- Feature 1
-- Feature 2
-- Feature 3
+- **Farming Guidance**: Our AI assistant provides real-time guidance to farmers on planting schedules, irrigation, and pest control, tailored to specific crops and local climate data.
 
-In the future we plan to...
+- **Weather Monitoring**: The assistant keeps track of weather conditions and sends immediate alerts to farmers when adverse weather is expected, helping them protect their crops.
 
-See below for our proposed schedule on next steps after Call for Code 2023 submission.
+- **Crop Monitoring**: Farmers can use their smartphones to capture images of their crops, which the assistant analyzes for signs of disease, pest infestations, or nutrient deficiencies.
 
-![Roadmap](./images/roadmap.jpg)
+In the future, we plan to further enhance and expand the project by implementing the following:
 
-## Additional details
+- **Crop Health Prediction**: Develop a feature that uses historical data, weather forecasts, and AI algorithms to predict crop health and potential issues. This proactive approach can help farmers take preventive measures.
 
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
+- **Marketplace Integration**: Integrate a marketplace or platform where farmers can sell their produce directly to consumers or local markets, bypassing intermediaries and ensuring fair prices.
+
+- **Agricultural Knowledge Hub**: Create a knowledge hub that offers articles, videos, and tutorials on various aspects of agriculture, providing educational resources for farmers.
+
+- **Collaborative Farming**: Implement tools for farmers to collaborate with each other on projects, share resources, and collectively address common challenges.
+
+- **Data Analytics Dashboard**: Provide farmers with data analytics and visualizations that help them make data-driven decisions for better crop management.
+
+- **Farmers' Market Locator**: Include a feature that helps farmers find nearby farmers' markets and events where they can sell their produce.
+
+- **Mobile Payment and Financial Services**: Enable mobile payment solutions and financial services to facilitate transactions and access to financial resources for farmers.
+
+- **Offline Access**: Ensure that the application can be used in areas with limited or no internet connectivity, allowing farmers to access critical information even in remote regions.
+
+This roadmap outlines our commitment to continuous development, user engagement, and sustainability in addressing the challenge of food security.
+
 
 ### How to run the project
 
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
+### Access the Project
+
+You can access our project by visiting the following link:
+
+[Farm360](https://farm360-ng.vercel.app/)
+
+Simply click the link above to explore the features and functionalities of our solution, which is hosted on Vercel. There's no need to set up a local development environment as the project is accessible through a web browser.
+
 
 ### Live demo
 
-You can find a running system to test at...
+You can find a running system to test our project on Vercel at:
 
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
+[Farm360 Live Demo](https://farm360-ng.vercel.app/)
 
 ---
-
-_INSTRUCTIONS: You can remove the below section from your specific project README._
-
-## About this template
-
-### Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-### Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-### Authors
-
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-### License
-
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
-
-### Acknowledgments
-
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
